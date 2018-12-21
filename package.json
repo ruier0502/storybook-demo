@@ -1,0 +1,40 @@
+{
+  "name": "storybook-demo",
+  "version": "1.0.0",
+  "description": "storybook管理组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.11.2"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@storybook/addon-actions": "^4.1.1",
+    "@storybook/addon-info": "^4.1.2",
+    "@storybook/addon-links": "^4.1.1",
+    "@storybook/addon-options": "^4.1.1",
+    "@storybook/addon-storysource": "^4.1.1",
+    "@storybook/addons": "^4.1.1",
+    "@storybook/react": "^4.1.1",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "expect": "^23.6.0",
+    "gulp": "^4.0.0",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.6.3",
+    "regenerator-runtime": "^0.13.1",
+    "storybook-addon-specifications": "^2.1.2"
+  }
+}
